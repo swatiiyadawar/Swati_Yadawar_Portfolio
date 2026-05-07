@@ -6,8 +6,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, ExternalLink } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { heroHighlights, siteConfig } from "@/lib/portfolio-data";
+import { siteConfig } from "@/lib/portfolio-data";
 
 const container = {
   hidden: { opacity: 0 },
@@ -34,45 +33,26 @@ export function HeroSection() {
         >
           <motion.p
             variants={item}
-            className="mb-4 text-sm font-medium uppercase tracking-[0.28em] text-muted-foreground"
+            className="mb-4 text-xs font-medium uppercase tracking-[0.24em] text-muted-foreground sm:text-sm"
           >
             Developer
           </motion.p>
 
           <motion.h1
             variants={item}
-            className="max-w-3xl font-heading text-5xl font-bold tracking-tight text-foreground sm:text-7xl"
+            className="max-w-3xl font-heading text-8xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl"
           >
             Swati Yadawar
           </motion.h1>
 
           <motion.p
             variants={item}
-            className="mt-5 max-w-2xl text-base leading-8 text-muted-foreground sm:text-lg"
+            className="mt-5 max-w-3xl text-base leading-8 text-muted-foreground sm:text-lg"
           >
-            {siteConfig.description}
+            {siteConfig.description} I am currently pursuing B.Tech in Computer Science (AI),
+            graduating in 2026 with a CGPA of 9.14. I am also working as a Frontend Intern at
+            Comau and actively seeking software engineering opportunities as a fresher.
           </motion.p>
-
-          <motion.p
-            variants={item}
-            className="mt-4 max-w-2xl text-sm leading-7 text-muted-foreground/90 sm:text-base"
-          >
-            I design polished interfaces and build practical AI-driven products that connect
-            frontend experience, automation, and scalable backend systems. My focus is on turning
-            ideas into recruiter-friendly products that feel thoughtful, modern, and production-ready.
-          </motion.p>
-
-          <motion.div variants={item} className="mt-6 flex flex-wrap gap-2">
-            {heroHighlights.map((highlight) => (
-              <Badge
-                key={highlight}
-                variant="secondary"
-                className="rounded-full border border-border/60 bg-background/60 px-3 py-1.5 text-xs font-medium text-foreground/80 backdrop-blur-xl"
-              >
-                {highlight}
-              </Badge>
-            ))}
-          </motion.div>
 
           <motion.div variants={item} className="mt-8 flex flex-wrap items-center gap-3">
             <Button asChild size="lg" className="h-12 rounded-full px-6 shadow-glow">

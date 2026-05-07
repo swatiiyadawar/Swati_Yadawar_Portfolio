@@ -24,7 +24,6 @@ export const navigationLinks = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Achievements", href: "#achievements" },
-  { label: "GitHub Stats", href: "#github-stats" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -37,7 +36,6 @@ export const socialLinks = [
 export const heroHighlights = [
   "AI product engineering",
   "Full-stack systems",
-  "Recruiter-friendly delivery",
 ];
 
 export const aboutPoints = [
@@ -104,13 +102,13 @@ export const projects = [
 ];
 
 export const skillGroups = [
-  { title: "Languages", items: ["Java", "Python", "JavaScript"] },
+  { title: "Languages", items: ["Java", "JavaScript"] },
   {
     title: "Frontend",
     items: ["React.js", "Next.js", "Angular", "Tailwind CSS"],
   },
   { title: "Backend", items: ["FastAPI", "Node.js"] },
-  { title: "AI & APIs", items: ["OpenAI API", "Gemini API", "OAuth", "Pandas"] },
+  { title: "AI & APIs", items: ["OpenAI API", "Gemini API","Ollama"] },
   { title: "Tools", items: ["Git", "GitHub", "GitLab", "Jira"] },
 ];
 

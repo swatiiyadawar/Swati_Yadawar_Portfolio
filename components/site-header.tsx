@@ -29,7 +29,7 @@ export function SiteHeader() {
             SY
           </span>
           <div className="hidden sm:block">
-            <p className="text-sm font-semibold text-foreground">{siteConfig.name}</p>
+            <p className="text-base font-semibold text-foreground">{siteConfig.name}</p>
             <p className="text-xs text-muted-foreground">{siteConfig.role}</p>
           </div>
         </Link>
@@ -39,7 +39,7 @@ export function SiteHeader() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="text-base text-muted-foreground transition-colors hover:text-foreground"
             >
               {link.label}
             </Link>
@@ -73,7 +73,7 @@ export function SiteHeader() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="rounded-2xl border border-border/50 bg-card/60 px-4 py-3 text-sm text-foreground transition-colors hover:bg-card"
+                    className="rounded-2xl border border-border/50 bg-card/60 px-4 py-3 text-base text-foreground transition-colors hover:bg-card"
                   >
                     {link.label}
                   </Link>

@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL("https://swatiyadawar.dev"),
   title: {
-    default: "Swati Yadawar | Frontend & AI Developer",
+    default: "Swati Yadawar | Developer",
     template: "%s | Swati Yadawar",
   },
   description:
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   ],
   creator: "Swati Yadawar",
   openGraph: {
-    title: "Swati Yadawar | Frontend & AI Developer",
+    title: "Swati Yadawar | Developer",
     description:
       "Modern portfolio showcasing AI products, frontend engineering, and full-stack work.",
     url: "https://swatiyadawar.dev",
@@ -42,13 +42,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Swati Yadawar | Frontend & AI Developer",
+    title: "Swati Yadawar | Developer",
     description:
       "Modern portfolio showcasing AI products, frontend engineering, and full-stack work.",
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/favicon_new.png",
+    shortcut: "/favicon_new.png",
   },
 };
 

@@ -28,6 +28,11 @@ export function AchievementsSection() {
               <achievement.icon className="h-5 w-5 text-sky-500" />
               <h3 className="mt-4 text-lg font-semibold text-foreground">{achievement.title}</h3>
               <p className="mt-2 text-sm leading-7 text-muted-foreground">{achievement.subtitle}</p>
+              {achievement.description && (
+  <p className="mt-2 text-sm font-medium leading-6 text-muted-foreground">
+    {achievement.description}
+  </p>
+)}
             </motion.div>
           ))}
         </div>

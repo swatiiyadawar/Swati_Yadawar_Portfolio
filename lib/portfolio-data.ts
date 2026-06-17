@@ -16,7 +16,8 @@ export const siteConfig = {
   email: "swatiyadawar29@gmail.com",
   github: "https://github.com/swatiiyadawar",
   linkedin: "https://www.linkedin.com/in/swati-yadawar-972692252/",
-  resume: "/SWATI_YADAWAR_RESUME_.pdf",
+   resume:
+    "https://drive.google.com/file/d/1Bh8L2LC7o4DypGXyYobRSPLHlFSHFxBQ/view?usp=sharing",
 };
 
 export const navigationLinks = [

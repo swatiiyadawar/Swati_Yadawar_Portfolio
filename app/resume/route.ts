@@ -1,4 +1,6 @@
 export async function GET() {
-  // Redirect to the uploaded static PDF in `public/` so the browser opens the file.
-  return Response.redirect("/SWATI_YADAWAR_RESUME_.pdf", 302);
+  return Response.redirect(
+    "https://drive.google.com/file/d/1Bh8L2LC7o4DypGXyYobRSPLHlFSHFxBQ/view?usp=sharing",
+    302
+  );
 }
